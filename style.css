@@ -1,7 +1,7 @@
 /*body*/
 body {
-  margin: 20px;;
-  padding: 10px;;
+  margin:0px;;
+  padding:0px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -11,20 +11,20 @@ header {
   text-align: center;
   background-color:burlywood;
   color: black;
+  margin-top: auto;
 }
 /* navigation*/
 nav ul {
   display: flex;
   gap: 20px;
   list-style-type: none;
+  font-size: smaller;
 }
 nav a {
   text-decoration:none;
   color: black; 
 }
-nav a :hover{
-    color: purple;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
