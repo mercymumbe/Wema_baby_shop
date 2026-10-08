@@ -7,11 +7,18 @@ body {
     Arial, sans-serif;
 }
 /* header */
-header {
+header h2 {
   text-align: center;
   background-color:burlywood;
   color: black;
   margin-top: auto;
+}
+header div {
+display: flex;
+gap: 200px;
+}
+header div h3 {
+  font-size: small;
 }
 /* navigation*/
 nav ul {
