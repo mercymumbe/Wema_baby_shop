@@ -14,6 +14,7 @@
                 "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
                 Arial, sans-serif;
             background-color: beige;
+            font-size: small;
         }
 
         /* header */
@@ -58,25 +59,32 @@
             list-style: none;
             display: block;
         }
+
         /* new arrival category */
-        section{display:grid;
+        section {
+            display: grid;
             grid-template-columns: repeat(2 1fr);
 
         }
+
         /* category section */
-        .Categories{
+        .Categories {
             text-align: center;
         }
-        .grid-container{display: grid;
+
+        .grid-container {
+            display: grid;
             grid-template-columns: repeat(4, 1fr);
-justify-content: space-between;
-gap: 20px;
-width: 30px;
+            justify-content: space-between;
+            gap: 20px;
+            width: 30px;
         }
-        .grid-item img{
+
+        .grid-item img {
             border-radius: 50%;
             object-fit: cover;
         }
+        
     </style>
 </head>
 
@@ -181,56 +189,121 @@ width: 30px;
     <main>
         <section>
             <div>
-                <img src="image_1.avif" alt="landing page image" width="900px" height="300px"/></section></main>
-        <!-- new arrival section -->
- <section>
-    <h2>New arrivals</h2>
-    <button>shop now</button>
- </section>
-        <!-- category section -->
-        <section class="Categories">
-            <h2>Categories</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="baby_bath.jpg" alt="baby bath" width="200px" height="200px" />
-                    <p>baby care</p>
-                </div>
-                <div class="grid-item">
-                    <img src="clothes_image.jpg" alt="clothes" width="200px" height="200px" />
-                    <p>Clothing</p>
-                </div>
-                <div class="grid-item">
-                    <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
-                    <p>Feeding</p>
-                </div>
-                <div class="cgrid-item">
-                    <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
-                    <p>Carriers</p>
-                </div>
-                <div class="grid-item ">
-                    <img src="mommy_image.jpg" alt="belt" width="200px" height="200px" />
-                    <p>Mommy</p>
-                </div>
-                <div class="grid-item">
-                    <img src="nursery_image.jpg" alt="nursing" width="200px" height="200px" />
-                    <p>Nursery</p>
-                </div>
-                <div class="grid-item">
-                    <img src="playtime_image.jpg" alt="playmat" width="200px" height="200px" />
-                    <p>Playtime</p>
-                </div>
-                <div class="grid-item">
-                    <img src="warmth_image.jpg" alt="blanket" width="200px" height="200px" />
-                    <p>Warmth</p>
-                </div>
-            </div>
+                <img src="image_1.avif" alt="landing page image" width="900px" height="300px" />
         </section>
-<!-- products -->
- <section class="product-container">
-    <h3>Featured products</h3>
-    
-    </div>
- </section>
+    </main>
+    <!-- new arrival section -->
+    <section>
+        <h2>New arrivals</h2>
+        <button>shop now</button>
+    </section>
+    <!-- category section -->
+    <section class="Categories">
+        <h2>Categories</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="baby_bath.jpg" alt="baby bath" width="200px" height="200px" />
+                <p>baby care</p>
+            </div>
+            <div class="grid-item">
+                <img src="clothes_image.jpg" alt="clothes" width="200px" height="200px" />
+                <p>Clothing</p>
+            </div>
+            <div class="grid-item">
+                <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
+                <p>Feeding</p>
+            </div>
+            <div class="cgrid-item">
+                <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
+                <p>Carriers</p>
+            </div>
+            <div class="grid-item ">
+                <img src="mommy_image.jpg" alt="belt" width="200px" height="200px" />
+                <p>Mommy</p>
+            </div>
+            <div class="grid-item">
+                <img src="nursery_image.jpg" alt="nursing" width="200px" height="200px" />
+                <p>Nursery</p>
+            </div>
+            <div class="grid-item">
+                <img src="playtime_image.jpg" alt="playmat" width="200px" height="200px" />
+                <p>Playtime</p>
+            </div>
+            <div class="grid-item">
+                <img src="warmth_image.jpg" alt="blanket" width="200px" height="200px" />
+                <p>Warmth</p>
+            </div>
+        </div>
+    </section>
+    <!-- products -->
+    <section >
+        <h3>Featured products</h3>
+        <div class="product-container">
+            <article class="product-card">
+                <img src="11_Piece_Receiving_Sets_1.jpg" alt="" width="100px" height="100px">
+                <p font-size="1em">11 piece receiving set</p>
+                <p class="price">KSh 1000.00</p>
+                <a href="receiving_set.html">view options</a>
+            </article>
+            <br>
+            <article class="product-card">
+                <img src="onesies__image.jpg" alt="Onesies" width="100px" height="100px">
+                <p> 5 Pieces Set Of Long Sleeved Baby Boy Bodysuits / Onesies
+                </p>
+                <p class="price">KSh 1500.00</p>
+                <a href="baby_suits.html">view options</a>
+            </article>
+            <br>
+            <article class="product-card">
+                <img src="carriers_image.jpg" alt="" width="100px" height="100px">
+                <p font-size="1em">diaper bags</p>
+                <p class="price">KSh 2000.00</p>
+                <a href="diaper_bags.html">view options</a>
+            </article>
+            <br>
+            <article class="product-card">
+                <img src="baby_car_seat_1.jpg" alt="" width="100px" height="100px">
+                <p font-size="1em">baby car seat</p>
+                <p class="price">KSh 1000.00</p>
+                <a href="child_safety_car_seat.html">view options</a>
+            </article>
+            <br>
+            <article class="product-card">
+                <img src="11_Piece_Receiving_Sets_1.jpg" alt="" width="100px" height="100px">
+                <p font-size="1em">11 piece receiving set</p>
+                <p class="price">KSh 1000.00</p>
+                <a href="receiving_set.html">view options</a>
+            </article>
+        </div>
+        <br><article class="product-card">
+            <img src="11_Piece_Receiving_Sets_1.jpg" alt=""width="100px" height="100px">
+            <p font-size="1em">11 piece receiving set</p>
+            <p class="price">KSh 1000.00</p>
+            <a href="receiving_set.html">view options</a>
+        </article>
+        <br> 
+        <article class="product-card">
+            <img src="11_Piece_Receiving_Sets_1.jpg" alt=""width="100px" height="100px">
+            <p font-size="1em">11 piece receiving set</p>
+            <p class="price">KSh 1000.00</p>
+            <a href="receiving_set.html">select option</a>
+        </article>
+        <br>
+        <article class="product-card">
+            <img src="11_Piece_Receiving_Sets_1.jpg" alt=""width="100px" height="100px">
+            <p font-size="1em">11 piece receiving set</p>
+            <p class="price">KSh 1000.00</p>
+            <a href="receiving_set.html">view options</a>
+        </article>
+        <br>
+        <article class="product-card">
+            <img src="11_Piece_Receiving_Sets_1.jpg" alt=""width="100px" height="100px">
+            <p font-size="1em">11 piece receiving set</p>
+            <p class="price">KSh 1000.00</p>
+            <a href="receiving_set.html">view options</a>
+        </article>
+
+    </section>
     </main>
 </body>
 
