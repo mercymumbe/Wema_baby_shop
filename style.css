@@ -23,17 +23,23 @@ header div h3 {
 /* navigation*/
 nav ul {
   display: flex;
-  gap: 20px;
+  gap:5px;
   list-style-type: none;
   font-size: smaller;
 }
-nav a {
-  text-decoration:none;
-  color: black; 
-}
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(235, 209, 122);
+  background-color: rgb(231, 220, 203);
+}
+nav ul li ul{
+  background-color: white;
+  position: relative;
+  list-style: none;
+  display: block;
 }
