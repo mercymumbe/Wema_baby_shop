@@ -58,6 +58,12 @@
             list-style: none;
             display: block;
         }
+        /* new arrival category */
+        section{display:grid;
+            grid-template-columns: repeat(2 1fr);
+
+        }
+        /* category section */
         .Categories{
             text-align: center;
         }
@@ -65,6 +71,7 @@
             grid-template-columns: repeat(4, 1fr);
 justify-content: space-between;
 gap: 20px;
+width: 30px;
         }
         .grid-item img{
             border-radius: 50%;
@@ -172,8 +179,15 @@ gap: 20px;
     </nav>
     <!-- hero section -->
     <main>
-        <section><img src="image_1.avif" alt="" /></section>
-        
+        <section>
+            <div>
+                <img src="image_1.avif" alt="landing page image" width="900px" height="300px"/></section></main>
+        <!-- new arrival section -->
+ <section>
+    <h2>New arrivals</h2>
+    <button>shop now</button>
+ </section>
+        <!-- category section -->
         <section class="Categories">
             <h2>Categories</h2>
             <div class="grid-container">
@@ -211,6 +225,10 @@ gap: 20px;
                 </div>
             </div>
         </section>
+<!-- products -->
+ <section>
+    <h3>Featured products</h3>
+ </section>
     </main>
 </body>
 
