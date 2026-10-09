@@ -1,117 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wema Baby Shop|Trusted Baby Shop</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 10px;
+            padding: 10px;
+            font-family:
+                "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+                Arial, sans-serif;
+            background-color: beige;
+        }
+
+        /* header */
+        header h2 {
+            text-align: center;
+            background-color: burlywood;
+            color: black;
+            margin-top: auto;
+        }
+
+        header div {
+            display: flex;
+            gap: 200px;
+        }
+
+        header div h3 {
+            font-size: small;
+        }
+
+        /* navigation*/
+        nav ul {
+            display: flex;
+            gap: 5px;
+            list-style-type: none;
+            font-size: smaller;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(231, 220, 203);
+        }
+
+        nav ul li ul {
+            background-color: white;
+            position: relative;
+            list-style: none;
+            display: block;
+        }
+        .Categories{
+            text-align: center;
+        }
+        .grid-container{display: grid;
+            grid-template-columns: repeat(4, 1fr);
+justify-content: space-between;
+gap: 20px;
+        }
+        .grid-item img{
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
 </head>
+
 <body>
     <!--header  -->
-    <header><h2>Shop Online</h2>
-<div>
+    <header>
+        <h2>Shop Online</h2>
+        <div>
             <h3>Wema Baby shop</h3>
             <form>
-            <label for="search"></label>
-            <input type="search" name="search" id="search" placeholder="search for products...">
-        </form>
+                <label for="search"></label>
+                <input type="search" name="search" id="search" placeholder="search for products..." />
+            </form>
         </div>
     </header>
 
-        <!-- navigation section -->
-       <nav> 
+    <!-- navigation section -->
+    <nav>
         <ul>
-            <li><a href="baby_care.html">Baby Care</a>
-            <ul>
-<li><a href="baby-bath.html">Baby bath</a></li>
-<li><a href="baby_potty.html">Baby potty</a></li>
-<li><a href="towel_&_washcloth.html">Towel & washclothes</a></li>
-<li><a href="teethers.html">Teethers</a></li>
-            </ul>
+            <li>
+                <a href="baby_care.html">Baby Care</a>
+                <ul>
+                    <li><a href="baby-bath.html">Baby bath</a></li>
+                    <li><a href="baby_potty.html">Baby potty</a></li>
+                    <li><a href="towel_&_washcloth.html">Towel & washclothes</a></li>
+                    <li><a href="teethers.html">Teethers</a></li>
+                </ul>
             </li>
-            
-            <li><a href="clothing.html">Clothing</a>
-            <ul>
-                <li><a href="baby_shoes.html">Baby shoes</a></li>
-                <li><a href="baby_suits.html">Baby suits</a></li>
-                <li><a href="receiving_set.html">Receiving set</a></li>
-                <li><a href="rompers.html"> Rompers</a></li>
-                <li><a href="custom_design.html">Custom design</a></li>
-                <li><a href="dresses.html">Dresses</a></li>
-                <li><a href="kofia.html">Kofia</a></li>
-                <li><a href="kofia_set.html">Kofia sets</a></li>
-                <li><a href="baby_bibs.html"></a>Baby bibs</li>
-            </ul>
+
+            <li>
+                <a href="clothing.html">Clothing</a>
+                <ul>
+                    <li><a href="baby_shoes.html">Baby shoes</a></li>
+                    <li><a href="baby_suits.html">Baby suits</a></li>
+                    <li><a href="receiving_set.html">Receiving set</a></li>
+                    <li><a href="rompers.html"> Rompers</a></li>
+                    <li><a href="custom_design.html">Custom design</a></li>
+                    <li><a href="dresses.html">Dresses</a></li>
+                    <li><a href="kofia.html">Kofia</a></li>
+                    <li><a href="kofia_set.html">Kofia sets</a></li>
+                    <li><a href="baby_bibs.html"></a>Baby bibs</li>
+                </ul>
             </li>
-            <li><a href="carriers.html">Carriers</a>
-            <ul>
-                <li><a href="baby_carrries.html">Baby carries</a></li>
-                <li><a href="diaper_bags.html">Diaper bags</a></li>
-            </ul>
+            <li>
+                <a href="carriers.html">Carriers</a>
+                <ul>
+                    <li><a href="baby_carrries.html">Baby carries</a></li>
+                    <li><a href="diaper_bags.html">Diaper bags</a></li>
+                </ul>
             </li>
-            <li><a href="feeding.html">Feeding</a>
-            <ul>
-                <li><a href="breast_pumps.html">breast pumps</a></li>
-                <li><a href="feeding_bottles.html">Feeding bottles</a></li>
-                <li><a href="feeding_chairs.html">Feeding chairs</a></li>
-                <li><a href="pacifier.html">Pacifier</a></li>
-            </ul>
+            <li>
+                <a href="feeding.html">Feeding</a>
+                <ul>
+                    <li><a href="breast_pumps.html">breast pumps</a></li>
+                    <li><a href="feeding_bottles.html">Feeding bottles</a></li>
+                    <li><a href="feeding_chairs.html">Feeding chairs</a></li>
+                    <li><a href="pacifier.html">Pacifier</a></li>
+                </ul>
             </li>
-            <li><a href="mommy.html">Mommy</a>
-            <ul class="dropdow">
-                <li><a href="belts.html">belts</a></li>
-                <li><a href="nursing_bras.html">nursing bras</a></li>
-            </ul>
+            <li>
+                <a href="mommy.html">Mommy</a>
+                <ul class="dropdow">
+                    <li><a href="belts.html">belts</a></li>
+                    <li><a href="nursing_bras.html">nursing bras</a></li>
+                </ul>
             </li>
-            <li><a href="Nursery.html">Nursery</a>
-            <ul>
-                <li><a href="kids_furniture.html">Kids furniture</a></li>
-                <li><a href="pillows.html"></a>Pillows</li>
-                <li><a href="nests_&_bassinets.html">Nests & _bassinets</a></li>
-            </ul>
+            <li>
+                <a href="Nursery.html">Nursery</a>
+                <ul>
+                    <li><a href="kids_furniture.html">Kids furniture</a></li>
+                    <li><a href="pillows.html"></a>Pillows</li>
+                    <li><a href="nests_&_bassinets.html">Nests & _bassinets</a></li>
+                </ul>
             </li>
-            <li><a href="playtime.html">Playtime</a>
-            <ul>
-                <li><a href="playmats.html">Playmats</a></li>
-                <li><a href="toys.html">Toys</a></li>
-            
-            </ul>
+            <li>
+                <a href="playtime.html">Playtime</a>
+                <ul>
+                    <li><a href="playmats.html">Playmats</a></li>
+                    <li><a href="toys.html">Toys</a></li>
+                </ul>
             </li>
-            <li><a href="trave.html">Travel</a>
-            <ul>
-                <li><a href="child_safety_car_seat.html">Child safety car seat</a></li>
-                <li><a href="swings_&_rockers.html">Swings & rockers</a></li>
-            </ul>
+            <li>
+                <a href="trave.html">Travel</a>
+                <ul>
+                    <li>
+                        <a href="child_safety_car_seat.html">Child safety car seat</a>
+                    </li>
+                    <li><a href="swings_&_rockers.html">Swings & rockers</a></li>
+                </ul>
             </li>
-            <li><a href="warmth.html">Warmth</a>
-            <ul>
-                <li><a href="baby_blankets.html">Baby blankets</a></li>
-                <li><a href="baby_warmer.html"></a>Baby warmer</li>
-                <li><a href="baby_shawls.html">Baby shawls</a></li>
-            </ul>
+            <li>
+                <a href="warmth.html">Warmth</a>
+                <ul>
+                    <li><a href="baby_blankets.html">Baby blankets</a></li>
+                    <li><a href="baby_warmer.html"></a>Baby warmer</li>
+                    <li><a href="baby_shawls.html">Baby shawls</a></li>
+                </ul>
             </li>
         </ul>
-     </nav>
+    </nav>
     <!-- hero section -->
-     <main>
-        <section>
-            <img src="image_1.avif" alt="">
+    <main>
+        <section><img src="image_1.avif" alt="" /></section>
+        
+        <section class="Categories">
             <h2>Categories</h2>
-            <div>
-                <p> <img src="baby_bath.jpg" alt="baby bath">baby care</p>
-                <p> <img src="clothes_image.jpg" alt="clothes">Clothing</p>
-                <p> <img src="feeding_image.jpeg" alt="feeding chair">Feeding</p>
-                <p> <img src="carriers_image.jpg" alt="diaper bag">Carriers</p>
-                <p> <img src="mommy_image.jpg" alt="belt">Mommy</p>
-                <p> <img src="nursery_image.jpg" alt="nursing">Nursery</p>
-                <p> <img src="playtime_image.jpg" alt="playmat">Playtime</p>
-                <p> <img src="warmth_image.jpg" alt="blanket">Warmth</p>
-                
-
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="baby_bath.jpg" alt="baby bath" width="200px" height="200px" />
+                    <p>baby care</p>
+                </div>
+                <div class="grid-item">
+                    <img src="clothes_image.jpg" alt="clothes" width="200px" height="200px" />
+                    <p>Clothing</p>
+                </div>
+                <div class="grid-item">
+                    <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
+                    <p>Feeding</p>
+                </div>
+                <div class="cgrid-item">
+                    <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
+                    <p>Carriers</p>
+                </div>
+                <div class="grid-item ">
+                    <img src="mommy_image.jpg" alt="belt" width="200px" height="200px" />
+                    <p>Mommy</p>
+                </div>
+                <div class="grid-item">
+                    <img src="nursery_image.jpg" alt="nursing" width="200px" height="200px" />
+                    <p>Nursery</p>
+                </div>
+                <div class="grid-item">
+                    <img src="playtime_image.jpg" alt="playmat" width="200px" height="200px" />
+                    <p>Playtime</p>
+                </div>
+                <div class="grid-item">
+                    <img src="warmth_image.jpg" alt="blanket" width="200px" height="200px" />
+                    <p>Warmth</p>
+                </div>
             </div>
-            
         </section>
-     </main>
-     
+    </main>
 </body>
+
 </html>
