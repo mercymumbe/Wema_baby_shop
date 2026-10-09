@@ -43,3 +43,9 @@ nav ul li ul{
   list-style: none;
   display: block;
 }
+main img{
+  width: 950px;
+  height: 400px;
+  padding: 20px;
+  margin: 5px;
+}
