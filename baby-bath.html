@@ -75,6 +75,26 @@
         a:hover {
             color: chocolate;
         }
+         /* products section*/
+        .product-container{
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .product-card{
+            background-color: azure;
+            padding: 10px;
+        }
+        .product-info{
+            color: black;
+        }
+        .add-cart{
+            background-color: burlywood;
+        }
+        .empty-star{
+            color: burlywood;
+        }
     </style>
 </head>
 
@@ -213,13 +233,13 @@
                     <p class="price">KSh 650</p>
                     <button class="add-cart">Add to Cart</button>
                 </div>
-                <div class="rating" aria-label="4.5 out of 5 stars">
+                <div class="rating" aria-label="3.0 out of 5 stars">
 
                     <span>★★★★</span>
                     <span class="empty-star">★</span>
 
                     <span class="rating-number">
-                        (4.5)
+                        (3.0)
                     </span>
                 </div>
         </article>
@@ -233,13 +253,13 @@
                     <p class="price"> Ksh 490</p>
                     <button class="add-cart">Add to Cart</button>
                 </div>
-                <div class="rating" aria-label="4.5 out of 5 stars">
+                <div class="rating" aria-label="2.5 out of 5 stars">
 
                     <span>★★★★</span>
                     <span class="empty-star">★</span>
 
                     <span class="rating-number">
-                        (4.5)
+                        (2.5)
                     </span>
                 </div>
         </article>
