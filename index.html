@@ -75,7 +75,7 @@
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(8,1fr);
             justify-content: space-between;
             gap: 20px;
             width: 30px;
@@ -88,9 +88,10 @@
         /* featured products */
         .product-container{
             display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            justify-content: space-between;
+            justify-content: space-around;
+            grid-template-columns: repeat(10,1fr);
             gap: 10px;
+            
         }
         .product-card{
             background-color: whitesmoke;
@@ -248,7 +249,7 @@ footer div a {
                 <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
                 <p>Feeding</p>
             </div>
-            <div class="cgrid-item">
+            <div class="grid-item">
                 <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
                 <p>Carriers</p>
             </div>
@@ -280,6 +281,7 @@ footer div a {
                 <p class="price">KSh 1000.00</p>
                 <a href="receiving_set.html">view options</a>
             </article>
+        
             <br>
             <article class="product-card">
                 <img src="onesies__image.jpg" alt="Onesies" width="200px" height="100px">

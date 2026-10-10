@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wema Baby Shop|Trusted Baby Shop</title>
     <style>
-         body {
+        body {
             margin: 10px;
             padding: 10px;
             font-family:
@@ -57,23 +58,40 @@
             list-style: none;
             display: block;
         }
-        section ul{
+
+        section ul {
             display: flex;
-            direction:ltr;
+            direction: ltr;
             list-style-type: none;
-            gap:5px;
+            gap: 5px;
         }
-        section ul li a{
+
+        section ul li a {
             text-decoration: none;
             color: grey;
-            
-        }
-        a:hover{color: chocolate;}
 
+        }
+
+        a:hover {
+            color: chocolate;
+        }
+
+        /* products section*/
+        .product-container{
+            display: grid;
+            grid-template-columns:repeat(4, 1fr);
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .product-card{
+            background-color: azure;
+            padding: 10px;
+        }
     </style>
 </head>
+
 <body>
-   <!--header  -->
+    <!--header  -->
     <header>
         <h2>Shop Online</h2>
         <div>
@@ -84,7 +102,7 @@
             </form>
         </div>
     </header>
-     <!-- navigation section -->
+    <!-- navigation section -->
     <nav>
         <ul>
             <li>
@@ -174,134 +192,135 @@
             <li><a href="index.html">home</a></li>
             <li><a href="baby_care.html">baby care</a></li>
             <li><a href="baby_potty.html">baby potty</a></li>
-        </section> 
+    </section>
+    <br>
+    <!-- products section -->
+    <section>
+        <div class="product-container">
+            <article class="product-card">
+                <div><img src="baby_potty_2.jpg" alt="baby potty" loading="lazy" width="200px" height="200px" /></div>
+
+                <div class="product-info">
+                    <p class="category">Kids Seat Toilet Trainer</p>
+                    <div class="product-bottom">
+                        <p class="price">KSh 4,000</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="rating" aria-label="4.5 out of 5 stars">
+
+                        <span>★★★★</span>
+                        <span class="empty-star">★</span>
+
+                        <span class="rating-number">
+                            (4.5)
+                        </span>
+                    </div>
+            </article>
+        </div>
         <br>
-        <!-- products section -->
-         <section>
-            </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_2.jpg" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Kids Seat Toilet Trainer</p>
-            <div class="product-bottom">
-              <p class="price">KSh 4,000</p>
-              <button class="add-cart">Add to Cart</button>
-            </div>
-            <div class="rating"
-                                aria-label="4.5 out of 5 stars">
-
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
-
-                                <span class="rating-number">
-                                    (4.5)
-                                </span>
-                                <br>
-                                </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_3.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
+        <div class="product-container">
+            <article class="product-card">
+                <div><img src="baby_potty_3.webp" alt="baby potty" loading="lazy" width="200px" height="200px" />
+        </div>
+        <div class="product-info">
             <p class="category">Simple Seat Trainer</p>
             <div class="product-bottom">
-              <p class="price">KSh 200</p>
-              <button class="add-cart">Add to Cart</button>
+                <p class="price">KSh 200</p>
+                <button class="add-cart">Add to Cart</button>
             </div>
-            <div class="rating"
-                                aria-label="4.0 out of 5 stars">
+            <div class="rating" aria-label="4.0 out of 5 stars">
 
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
+                <span>★★★★</span>
+                <span class="empty-star">★</span>
 
-                                <span class="rating-number">
-                                    (4.0)
-                                </span>
-                                <br>
-                                </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_4.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Whale Potty Chair with Lid, Back Support & Splash Guard, Non-Slip Kids Toilet Trainer</p>
-            <div class="product-bottom">
-              <p class="price">KSh 4,200</p>
-              <button class="add-cart">Add to Cart</button>
+                <span class="rating-number">
+                    (4.0)
+                </span>
             </div>
-            <div class="rating"
-                                aria-label="4.5 out of 5 stars">
-
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
-
-                                <span class="rating-number">
-                                    (4.5)
-                                </span>
-                                <br>
-                                </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_5.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Potty Training Toilet for Toddlers, 2-in-1 Potty Training seat, Anti-Slip</p>
-            <div class="product-bottom">
-              <p class="price">KSh 3,800</p>
-              <button class="add-cart">Add to Cart</button>
+            </article>
+        </div>
+        <br>
+            <div class="product-container">
+                <article class="product-card">
+                   <div> <img src="baby_potty_4.webp" alt="baby potty" loading="lazy" width="200px" height="200px" />
             </div>
-            <div class="rating"
-                                aria-label="4.5 out of 5 stars">
+            <div class="product-info">
+                <p class="category">Whale Potty Chair with Lid, Back Support & Splash Guard, Non-Slip Kids Toilet
+                    Trainer</p>
+                <div class="product-bottom">
+                    <p class="price">KSh 4,200</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="rating" aria-label="4.5 out of 5 stars">
 
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
+                    <span>★★★★</span>
+                    <span class="empty-star">★</span>
 
-                                <span class="rating-number">
-                                    (4.5)
-                                </span>
-                                <br>
-                                </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_6.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Bright Starts Disney Junior Princess My Size Potty Training Toilet, Toddler Potty Chair with Flushing & Cheering Sounds, Removable Seat with Splash Guard & Handles</p>
-            <div class="product-bottom">
-              <p class="price">KSh 3,850</p>
-              <button class="add-cart">Add to Cart</button>
+                    <span class="rating-number">
+                        (4.5)
+                    </span>
+                </div>
+                </article>
             </div>
-            <div class="rating"
-                                aria-label="4.5 out of 5 stars">
+            <br>
+                <div class="product-container">
+                    <article class="product-card">
+                       <div> <img src="baby_potty_5.webp" alt="baby potty" loading="lazy" width="200px" height="200px" />
+                </div>
+                <div class="product-info">
+                    <p class="category">Potty Training Toilet for Toddlers, 2-in-1 Potty Training seat, Anti-Slip</p>
+                    <div class="product-bottom">
+                        <p class="price">KSh 3,800</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                    <div class="rating" aria-label="4.5 out of 5 stars">
 
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
+                        <span>★★★★</span>
+                        <span class="empty-star">★</span>
 
-                                <span class="rating-number">
-                                    (4.5)
-                                </span>
-                                <br>
-                                </div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_7.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Fisher-Price™ Toddler Toilet Penguin Potty Training Seat, Portable Chair with Handles for Kids and Removable Bowl</p>
-            <div class="product-bottom">
-              <p class="price">KSh 2,800</p>
-              <button class="add-cart">Add to Cart</button>
-            </div>
-            <div class="rating"
-                                aria-label="3.0 out of 5 stars">
+                        <span class="rating-number">
+                            (4.5)
+                        </span>
+                    </div>
+                    </article>
+                </div>
+                <br>
+                    <div class="product-container">
+                        <article class="product-card">
+                            <div><img src="baby_potty_6.webp" alt="baby potty" loading="lazy" width="200px" height="200px" />
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Bright Starts Disney Junior Princess My Size Potty Training Toilet, Toddler
+                            Potty Chair with Flushing & Cheering Sounds, Removable Seat with Splash Guard & Handles</p>
+                        <div class="product-bottom">
+                            <p class="price">KSh 3,850</p>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                        <div class="rating" aria-label="4.5 out of 5 stars">
+
+                            <span>★★★★</span>
+                            <span class="empty-star">★</span>
+
+                            <span class="rating-number">
+                                (4.5)
+                            </span>
+                        </div>
+                        </article>
+                    </div>
+                    <br>
+                        <div class="product-container">
+                            <article class="product-card">
+                               <div> <img src="baby_potty_7.webp" alt="baby potty" loading="lazy" width="200px"
+                                    height="200px" />
+                        </div>
+                        <div class="product-info">
+                            <p class="category">Fisher-Price™ Toddler Toilet Penguin Potty Training Seat, Portable Chair
+                                with Handles for Kids and Removable Bowl</p>
+                            <div class="product-bottom">
+                                <p class="price">KSh 2,800</p>
+                                <button class="add-cart">Add to Cart</button>
+                            </div>
+                            <div class="rating" aria-label="3.0 out of 5 stars">
 
                                 <span>★★★★</span>
                                 <span class="empty-star">★</span>
@@ -309,29 +328,34 @@
                                 <span class="rating-number">
                                     (3.0)
                                 </span>
-<br>
-</div>
-        </article>
-      <article class="product-card">
-          <div class="product-image">
-            <img src="baby_potty_8.webp" alt="baby potty"loading="lazy"  width="200px" height="200px"/>
-          </div>
-          <div class="product-info">
-            <p class="category">Jool Baby Potty Chair for Toddler Toilet Training - Splash Guard & Back Support (Pink)</p>
-            <div class="product-bottom">
-              <p class="price">KSh 2,750</p>
-              <button class="add-cart">Add to Cart</button>
-            </div>
-            <div class="rating"
-                                aria-label="4.0 out of 5 stars">
+                            </div>
+                            </article>
+                        </div>
+                            <br>
+                            <div class="product-container">
+                                <article class="product-card">
+                                    <div><img src="baby_potty_8.webp" alt="baby potty" loading="lazy" width="200px"
+                                        height="200px" /></div>
+                            <div class="product-info">
+                                <p class="category">Jool Baby Potty Chair for Toddler Toilet Training - Splash Guard &
+                                    Back Support (Pink)</p>
+                                <div class="product-bottom">
+                                    <p class="price">KSh 2,750</p>
+                                    <button class="add-cart">Add to Cart</button>
+                                </div>
+                                <div class="rating" aria-label="4.0 out of 5 stars">
 
-                                <span>★★★★</span>
-                                <span class="empty-star">★</span>
+                                    <span>★★★★</span>
+                                    <span class="empty-star">★</span>
 
-                                <span class="rating-number">
-                                    (4.0)
-                                </span>
+                                    <span class="rating-number">
+                                        (4.0)
+                                    </span>
+                                </div>
+                                    </article>
+                                </div>
 
-         </section>
+    </section>
 </body>
+
 </html>
