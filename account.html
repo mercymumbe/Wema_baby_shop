@@ -5,18 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wema Baby Shop|Trusted Baby Shop</title>
+    <style>
+        /* body */
+         body {
+            margin: 10px;
+            padding: 10px;
+            font-family:
+                "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+                Arial, sans-serif;
+            background-color: beige;
+            font-size: small;
+        }
+        /* navigation links */
+         nav ul {
+            display: flex;
+            direction: ltr;
+            list-style-type: none;
+            gap: 5px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: grey;
+
+        }
+
+        a:hover {
+            color: chocolate;
+        }
+        .login-container{
+            display: grid;
+            grid-template-columns:(1fr);
+            gap: 10px;
+        }
+        .login-card{
+            background-color: azure;
+        margin: 200px;
+        padding: 10px;
+        }
+
+
+    </style>
 </head>
 
 <body>
     <!-- navigation links -->
       <section>
+        <nav>
         <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="account.html">Account</a></li>
+        </ul>
+        </nav>
     </section>
     <section>
         <div class="login-container">
-                <h2>Wema baby shop</h2>
+            <article class="login-card"><h2>Wema baby shop</h2>
                 <p>Welcome back dear parent!</p>
                 <!-- login details -->
                 <div>
@@ -34,9 +78,10 @@
                     </form>
                 </div>
                 <!-- registration details -->
-                <div>
-<p>Dont have an account?</p>
-                </div>
+                 <div><p>Dont have an account?</p></div>
+                 
+                </article>
+       
             </div>
             
 </body>
