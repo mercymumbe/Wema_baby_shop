@@ -6,7 +6,7 @@
     <title>Wema Baby Shop|Trusted Baby Shop</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
     <style>
-      body {
+       body {
             margin: 10px;
             padding: 10px;
             font-family:
@@ -39,7 +39,55 @@
             justify-content: flex-end;
             align-items: center;
             gap: 10px;
-        }   
+        }
+
+        /* navigation*/
+        nav ul {
+            display: flex;
+            gap: 5px;
+            list-style-type: none;
+            font-size: smaller;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: burlywood;
+        }
+
+        nav ul li ul {
+            background-color: white;
+            position: relative;
+            list-style: none;
+            display: block;
+        }
+
+        a:hover {
+            color: chocolate;
+        }
+
+
+        section button {
+            border-radius: 30%;
+            background-color: burlywood;
+        }
+ section ul {
+            display: flex;
+            direction: ltr;
+            list-style-type: none;
+            gap: 5px;
+        }
+
+        section ul li a {
+            text-decoration: none;
+            color: grey;
+
+        }
     </style>
 </head>
 <body>
@@ -60,11 +108,11 @@
     </header>
 
     <!-- navigation section -->
-    <nav class="navbar">
-        <ul  class="nav-menu">
-            <li class="dropdown">
-                <a href="baby_care.html">Baby Care <span>^</span></a>
-                <ul class="dropdown-menu">
+    <nav>
+        <ul>
+            <li>
+                <a href="baby_care.html">Baby Care</a>
+                <ul>
                     <li><a href="baby-bath.html">Baby bath</a></li>
                     <li><a href="baby_potty.html">Baby potty</a></li>
                     <li><a href="towel_&_washcloth.html">Towel & washclothes</a></li>
@@ -72,9 +120,9 @@
                 </ul>
             </li>
 
-            <li class="dropdown">
-                <a href="clothing.html">Clothing <span>^</span></a>
-                <ul class="dropdown-menu">
+            <li>
+                <a href="clothing.html">Clothing</a>
+                <ul>
                     <li><a href="baby_shoes.html">Baby shoes</a></li>
                     <li><a href="baby_suits.html">Baby suits</a></li>
                     <li><a href="receiving_set.html">Receiving set</a></li>
@@ -86,56 +134,56 @@
                     <li><a href="baby_bibs.html">Baby bibs</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="carriers.html">Carriers <span>^</span></a>
-                <ul class="dropdown-menu">
+            <li>
+                <a href="carriers.html">Carriers</a>
+                <ul>
                     <li><a href="baby_carrries.html">Baby carries</a></li>
                     <li><a href="diaper_bags.html">Diaper bags</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="feeding.html">Feeding <span>^</span></a>
-                <ul class="dropdown-menu">
+            <li>
+                <a href="feeding.html">Feeding</a>
+                <ul>
                     <li><a href="breast_pumps.html">breast pumps</a></li>
                     <li><a href="feeding_bottles.html">Feeding bottles</a></li>
                     <li><a href="feeding_chairs.html">Feeding chairs</a></li>
                     <li><a href="pacifier.html">Pacifier</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="mommy.html">Mommy <span>^</span></a>
-                <ul class="dropdown-menu">
+            <li>
+                <a href="mommy.html">Mommy</a>
+                <ul>
                     <li><a href="belts.html">belts</a></li>
                     <li><a href="nursing_bras.html">nursing bras</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
-                <a href="Nursery.html">Nursery <span>^</span></a>
-                <ul class="dropdown-menu">
+            <li>
+                <a href="Nursery.html">Nursery</a>
+                <ul>
                     <li><a href="kids_furniture.html">Kids furniture</a></li>
                     <li><a href="pillows.html">Pillows</a></li>
                     <li><a href="nests_&_bassinets.html">Nests & _bassinets</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
+            <li>
                 <a href="playtime.html">Playtime</a>
-                <ul class="dropdown-menu">
+                <ul>
                     <li><a href="playmats.html">Playmats</a></li>
                     <li><a href="toys.html">Toys</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
+            <li>
                 <a href="trave.html">Travel</a>
-                <ul class="dropdown-menu">
+                <ul>
                     <li>
                         <a href="child_safety_car_seat.html">Child safety car seat</a>
                     </li>
                     <li><a href="swings_&_rockers.html">Swings & rockers</a></li>
                 </ul>
             </li>
-            <li class="dropdown">
+            <li>
                 <a href="warmth.html">Warmth</a>
-                <ul class="dropdown-menu">
+                <ul>
                     <li><a href="baby_blankets.html">Baby blankets</a></li>
                     <li><a href="baby_warmer.html">Baby warmer</a></li>
                     <li><a href="baby_shawls.html">Baby shawls</a></li>
