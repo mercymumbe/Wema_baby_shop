@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wema Baby Shop|Trusted Baby Shop</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
- />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
     <style>
         body {
             margin: 10px;
@@ -19,7 +18,7 @@
         }
 
         /* header */
-        
+
         header h2 {
             text-align: center;
             background-color: burlywood;
@@ -35,11 +34,16 @@
         header div h3 {
             font-size: small;
         }
-.header-icon{
-display: flex;
-justify-content: flex-end;
 
-}
+        .header-icon {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            
+
+        }
+
         /* navigation*/
         nav ul {
             display: flex;
@@ -65,14 +69,18 @@ justify-content: flex-end;
             list-style: none;
             display: block;
         }
-         a:hover{color: chocolate;}
+
+        a:hover {
+            color: chocolate;
+        }
 
         /* new arrival category */
-         
-section button{
-    border-radius: 30%;
-    background-color: burlywood;
-}
+
+        section button {
+            border-radius: 30%;
+            background-color: burlywood;
+        }
+
         /* category section */
         .Categories {
             text-align: center;
@@ -80,7 +88,7 @@ section button{
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(8,1fr);
+            grid-template-columns: repeat(8, 1fr);
             justify-content: space-between;
             gap: 20px;
             width: 30px;
@@ -90,44 +98,50 @@ section button{
             border-radius: 50%;
             object-fit: cover;
         }
+
         /* featured products */
-        .product-container{
+        .product-container {
             display: grid;
             justify-content: space-around;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 10px;
-            
+
         }
-        .product-card{
+
+        .product-card {
             background-color: whitesmoke;
             padding: 10px;
-            
+
         }
-        .price{
+
+        .price {
             color: brown;
         }
-        article a{
+
+        article a {
             text-decoration: none;
-            color:blue;
-            border:1px;
+            color: blue;
+            border: 1px;
         }
+
         /* footer*/
         footer {
-  background-color: black;
-  color: white;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  text-align: center;
+            background-color: black;
+            color: white;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            text-align: center;
 
-}
-footer div a {
-    text-decoration: none;
-    color: white;
-    justify-content: space-between;
-    
-}
- </style>
+        }
+
+        footer div a {
+            text-decoration: none;
+            color: white;
+            justify-content: space-between;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -140,9 +154,10 @@ footer div a {
                 <label for="search"></label>
                 <input type="search" name="search" id="search" placeholder="search for products..." />
             </form>
-           <div class="header-icon">
-            <a href="account.html"><i class="fa-regular fa-user"></i></a>
-           </div> 
+            <div class="header-icon">
+                <a href="account.html"><i class="fa-regular fa-user"></i></a>
+                <a href="add_to_cart.htm"><i class="fa-sharp fa-regular fa-cart-shopping"></i></a>
+            </div>
         </div>
     </header>
 
@@ -233,142 +248,142 @@ footer div a {
     <!-- hero section -->
     <main>
         <br>
-    <section>
-        <button>shop now</button>
-    </section>
-    <br>
+        <section>
+            <button>shop now</button>
+        </section>
+        <br>
         <section>
             <div>
                 <img src="home_image.png" alt="home_image" width="965px" height="400px" />
         </section>
-   
-    <!-- category section -->
-    <section class="Categories">
-        <h2>Categories</h2>
-        <div class="grid-container">
-            <div class="grid-item">
-                <img src="baby_bath.jpg" alt="baby bath" width="200px" height="200px" />
-                <p>baby care</p>
+
+        <!-- category section -->
+        <section class="Categories">
+            <h2>Categories</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="baby_bath.jpg" alt="baby bath" width="200px" height="200px" />
+                    <p>baby care</p>
+                </div>
+                <div class="grid-item">
+                    <img src="clothes_image.jpg" alt="clothes" width="200px" height="200px" />
+                    <p>Clothing</p>
+                </div>
+                <div class="grid-item">
+                    <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
+                    <p>Feeding</p>
+                </div>
+                <div class="grid-item">
+                    <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
+                    <p>Carriers</p>
+                </div>
+                <div class="grid-item ">
+                    <img src="mommy_image.jpg" alt="belt" width="200px" height="200px" />
+                    <p>Mommy</p>
+                </div>
+                <div class="grid-item">
+                    <img src="nursery_image.jpg" alt="nursing" width="200px" height="200px" />
+                    <p>Nursery</p>
+                </div>
+                <div class="grid-item">
+                    <img src="playtime_image.jpg" alt="playmat" width="200px" height="200px" />
+                    <p>Playtime</p>
+                </div>
+                <div class="grid-item">
+                    <img src="warmth_image.jpg" alt="blanket" width="200px" height="200px" />
+                    <p>Warmth</p>
+                </div>
             </div>
-            <div class="grid-item">
-                <img src="clothes_image.jpg" alt="clothes" width="200px" height="200px" />
-                <p>Clothing</p>
+        </section>
+        <!-- products -->
+        <section>
+            <h3>Featured products</h3>
+            <div class="product-container">
+                <article class="product-card">
+                    <img src="11_Piece_Receiving_Sets_1.jpg" alt="receiving set" width="200px" height="200px">
+                    <p font-size="1em">11 piece receiving set</p>
+                    <p class="price">KSh 1000.00</p>
+                    <a href="receiving_set.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="onesies__image.jpg" alt="Onesies" width="200px" height="100px">
+                    <p> 5 Pieces Set Of Long Sleeved Baby Boy Bodysuits / Onesies
+                    </p>
+                    <p class="price">KSh 1500.00</p>
+                    <a href="baby_suits.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="100px">
+                    <p font-size="1em">diaper bags</p>
+                    <p class="price">KSh 2000.00</p>
+                    <a href="diaper_bags.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="baby_car_seat_1.jpg" alt=" baby car seat" width="200px" height="100px">
+                    <p font-size="1em">baby car seat</p>
+                    <p class="price">KSh 25000.00</p>
+                    <a href="child_safety_car_seat.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="baby_bath_1.avif" alt="babybath" width="200px" height="100px">
+                    <p font-size="1em">baby bath</p>
+                    <p class="price">KSh 6500.00</p>
+                    <a href="baby-bath.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="feeding_image.jpeg" alt="feeding_image" width="200px" height="100px">
+                    <p font-size="1em">Feeding chairs</p>
+                    <p class="price">KSh 12000.00</p>
+                    <a href="feeding_chairs.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="warmth_image.jpg" alt="warmth_image" width="200px" height="100px">
+                    <p font-size="1em">baby blankets</p>
+                    <p class="price">KSh 500.00</p>
+                    <a href="baby_blankets.html">select option</a>
+                </article>
+                <article class="product-card">
+                    <img src="teethers_1.jpg" alt="teethers_1" width="200px" height="100px">
+                    <p font-size="1em">teethers</p>
+                    <p class="price">KSh 400.00</p>
+                    <a href="teethers.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="baby_bed_1.jpg" alt="baby_bed_1" width="200px" height="100px">
+                    <p font-size="1em">bed</p>
+                    <p class="price">KSh 9500.00</p>
+                    <a href="kids_furniture.html">view options</a>
+                </article>
+                <article class="product-card">
+                    <img src="swings_&_rockers_1.jpg" alt="Swings_&_rockers_1" width="200px" height="100px">
+                    <p font-size="1em">swing & rockers</p>
+                    <p class="price">KSh 20000.00</p>
+                    <a href="receiving_set.html">view options</a>
+                </article>
             </div>
-            <div class="grid-item">
-                <img src="feeding_image.jpeg" alt="feeding chair" width="200px" height="200px" />
-                <p>Feeding</p>
-            </div>
-            <div class="grid-item">
-                <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="200px" />
-                <p>Carriers</p>
-            </div>
-            <div class="grid-item ">
-                <img src="mommy_image.jpg" alt="belt" width="200px" height="200px" />
-                <p>Mommy</p>
-            </div>
-            <div class="grid-item">
-                <img src="nursery_image.jpg" alt="nursing" width="200px" height="200px" />
-                <p>Nursery</p>
-            </div>
-            <div class="grid-item">
-                <img src="playtime_image.jpg" alt="playmat" width="200px" height="200px" />
-                <p>Playtime</p>
-            </div>
-            <div class="grid-item">
-                <img src="warmth_image.jpg" alt="blanket" width="200px" height="200px" />
-                <p>Warmth</p>
-            </div>
-        </div>
-    </section>
-    <!-- products -->
-    <section >
-        <h3>Featured products</h3>
-        <div class="product-container">
-            <article class="product-card">
-                <img src="11_Piece_Receiving_Sets_1.jpg" alt="receiving set" width="200px" height="200px">
-                <p font-size="1em">11 piece receiving set</p>
-                <p class="price">KSh 1000.00</p>
-                <a href="receiving_set.html">view options</a>
-            </article>
-            <article class="product-card">
-                <img src="onesies__image.jpg" alt="Onesies" width="200px" height="100px">
-                <p> 5 Pieces Set Of Long Sleeved Baby Boy Bodysuits / Onesies
-                </p>
-                <p class="price">KSh 1500.00</p>
-                <a href="baby_suits.html">view options</a>
-            </article>
-            <article class="product-card">
-                <img src="carriers_image.jpg" alt="diaper bag" width="200px" height="100px">
-                <p font-size="1em">diaper bags</p>
-                <p class="price">KSh 2000.00</p>
-                <a href="diaper_bags.html">view options</a>
-            </article>
-            <article class="product-card">
-                <img src="baby_car_seat_1.jpg" alt=" baby car seat" width="200px" height="100px">
-                <p font-size="1em">baby car seat</p>
-                <p class="price">KSh 25000.00</p>
-                <a href="child_safety_car_seat.html">view options</a>
-            </article>
-            <article class="product-card">
-                <img src="baby_bath_1.avif" alt="babybath" width="200px" height="100px">
-                <p font-size="1em">baby bath</p>
-                <p class="price">KSh 6500.00</p>
-                <a href="baby-bath.html">view options</a>
-            </article>
-             <article class="product-card">
-            <img src="feeding_image.jpeg" alt="feeding_image"width="200px" height="100px">
-            <p font-size="1em">Feeding chairs</p>
-            <p class="price">KSh 12000.00</p>
-            <a href="feeding_chairs.html">view options</a>
-        </article>
-        <article class="product-card">
-            <img src="warmth_image.jpg" alt="warmth_image"width="200px" height="100px">
-            <p font-size="1em">baby blankets</p>
-            <p class="price">KSh 500.00</p>
-            <a href="baby_blankets.html">select option</a>
-        </article>
-        <article class="product-card">
-            <img src="teethers_1.jpg" alt="teethers_1"width="200px" height="100px">
-            <p font-size="1em">teethers</p>
-            <p class="price">KSh 400.00</p>
-            <a href="teethers.html">view options</a>
-        </article>
-        <article class="product-card">
-            <img src="baby_bed_1.jpg" alt="baby_bed_1"width="200px" height="100px">
-            <p font-size="1em">bed</p>
-            <p class="price">KSh 9500.00</p>
-            <a href="kids_furniture.html">view options</a>
-        </article>
-<article class="product-card">
-            <img src="swings_&_rockers_1.jpg" alt="Swings_&_rockers_1"width="200px" height="100px">
-            <p font-size="1em">swing & rockers</p>
-            <p class="price">KSh 20000.00</p>
-            <a href="receiving_set.html">view options</a>
-        </article>
-        </div>
-       
-    </section>
-    
+
+        </section>
+
     </main>
     <!-- company information -->
     <footer>
-      <div>
-        <h3>Wema baby Shop</h3>
-      </div>
-      <!-- quick links -->
-      <div>
-        <h3>Quick Links</h3>
-        <a href="index.html">Home</a>
-        <a href="about.html">About us</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html"> Contact us</a>
-      </div>
-      <!-- copy right -->
-      <div>
-        <p>&copy;Wema baby shop 2026</p>
-      </div>
+        <div>
+            <h3>Wema baby Shop</h3>
+        </div>
+        <!-- quick links -->
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html"> Contact us</a>
+        </div>
+        <!-- copy right -->
+        <div>
+            <p>&copy;Wema baby shop 2026</p>
+        </div>
     </footer>
-   
+
 </body>
 
 </html>
