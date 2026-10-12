@@ -18,30 +18,10 @@
         }
 
         /* header */
-
-        header h2 {
-            text-align: center;
-            background-color: burlywood;
-            color: black;
-            margin-top: auto;
-        }
-
-        header div {
-            display: flex;
-            gap: 200px;
-        }
-
-        header div h3 {
-            font-size: small;
-        }
-
-        .header-icon {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            gap: 10px;
-        }
-
+h1{ 
+    text-align: center;
+color: chocolate;
+}
         /* navigation*/
         nav ul {
             display: flex;
@@ -58,31 +38,51 @@
         nav {
             display: flex;
             justify-content: space-between;
+         flex-direction: column;
             background-color: burlywood;
         }
 
-        nav ul li ul {
-            background-color: white;
+        .dropdown {
             position: relative;
-            list-style: none;
+            display: inline-block;
+        }
+
+        .dropbtn { 
+            color: black;
+            padding: 0px;
+            font: size 2px;
+            margin: 10px;
+            
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            border:none;
+        }
+
+        .dropdown:hover .dropdown-content {
             display: block;
+        }
+
+        .dropdown-content div {
+            padding: 10px;
+            cursor: pointer;
         }
 
         a:hover {
             color: chocolate;
         }
-
-    
-
         section button {
             border-radius: 30%;
             background-color: burlywood;
         }
 
-        section a{
+        section a {
             text-decoration: none;
             color: black;
         }
+
         /* category section */
         .Categories {
             text-align: center;
@@ -106,7 +106,7 @@
             display: grid;
             justify-content: space-around;
             grid-template-columns: repeat(4, 1fr);
-            gap:5px;
+            gap: 5px;
 
         }
 
@@ -128,21 +128,21 @@
 
         /* footer*/
         footer {
-            display: flex;
-            gap: 50px;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
             background-color: black;
             color: white;
             width: 100%;
             position: relative;
             bottom: 0;
-    
+
 
         }
 
         footer div a {
             text-decoration: none;
             color: white;
-            list-style-type:none ;
+            list-style-type: none;
 
         }
     </style>
@@ -151,114 +151,118 @@
 <body>
     <!--header  -->
     <header>
-        <h2>Shop Online</h2>
         <div>
-            <h3>Wema Baby shop</h3>
-            <form>
-                <label for="search"></label>
-                <input type="search" name="search" id="search" placeholder="search for products..." />
-            </form>
-            <div class="header-icon">
-                <a href="account.html"><i class="fa-regular fa-user"></i></a>
-                <a href="add_to_cart.html"><i class="fa-sharp fa-regular fa-cart-shopping"></i></a>
-            </div>
+            <h1>Wema Baby Shop</h1>
+
         </div>
     </header>
 
     <!-- navigation section -->
-    <nav>
-        <ul>
-            <li>
-                <a href="baby_care.html">Baby Care</a>
-                <ul>
-                    <li><a href="baby_bath.html">Baby bath</a></li>
-                    <li><a href="baby_potty.html">Baby potty</a></li>
-                    <li><a href="towel_&_washcloth.html">Towel & washclothes</a></li>
-                    <li><a href="teethers.html">Teethers</a></li>
-                </ul>
-            </li>
 
-            <li>
-                <a href="clothing.html">Clothing</a>
-                <ul>
-                    <li><a href="baby_shoes.html">Baby shoes</a></li>
-                    <li><a href="baby_suits.html">Baby suits</a></li>
-                    <li><a href="receiving_set.html">Receiving set</a></li>
-                    <li><a href="rompers.html"> Rompers</a></li>
-                    <li><a href="custom_design.html">Custom design</a></li>
-                    <li><a href="dresses.html">Dresses</a></li>
-                    <li><a href="kofia.html">Kofia</a></li>
-                    <li><a href="kofia_set.html">Kofia sets</a></li>
-                    <li><a href="baby_bibs.html">Baby bibs</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="carriers.html">Carriers</a>
-                <ul>
-                    <li><a href="baby_carrries.html">Baby carries</a></li>
-                    <li><a href="diaper_bags.html">Diaper bags</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="feeding.html">Feeding</a>
-                <ul>
-                    <li><a href="breast_pumps.html">breast pumps</a></li>
-                    <li><a href="feeding_bottles.html">Feeding bottles</a></li>
-                    <li><a href="feeding_chairs.html">Feeding chairs</a></li>
-                    <li><a href="pacifier.html">Pacifier</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="mommy.html">Mommy</a>
-                <ul class="dropdow">
-                    <li><a href="belts.html">belts</a></li>
-                    <li><a href="nursing_bras.html">nursing bras</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="Nursery.html">Nursery</a>
-                <ul>
-                    <li><a href="kids_furniture.html">Kids furniture</a></li>
-                    <li><a href="pillows.html">Pillows</a></li>
-                    <li><a href="nests_&_bassinets.html">Nests & _bassinets</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="playtime.html">Playtime</a>
-                <ul>
-                    <li><a href="playmats.html">Playmats</a></li>
-                    <li><a href="toys.html">Toys</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="trave.html">Travel</a>
-                <ul>
-                    <li>
-                        <a href="child_safety_car_seat.html">Child safety car seat</a>
-                    </li>
-                    <li><a href="swings_&_rockers.html">Swings & rockers</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="warmth.html">Warmth</a>
-                <ul>
-                    <li><a href="baby_blankets.html">Baby blankets</a></li>
-                    <li><a href="baby_warmer.html">Baby warmer</a></li>
-                    <li><a href="baby_shawls.html">Baby shawls</a></li>
-                </ul>
-            </li>
-        </ul>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="baby_care.html">Baby Care</a></button>
+            <div class="dropdown-content">
+                <div onclick="showAlert('baby_bath')"><a href="baby_bath.html">Baby bath</a></div>
+                <div onclick="showAlert('baby potty')"> <a href="baby_potty.html">Baby potty</a></div>
+                <div onclick="showAlert('towel_&_washcloth')"> <a href="towel_&_washcloth.html">towel & wash cloth</a>
+                </div>
+                <div onclick="showAlert('Teethers')"> <a href="teethers.html">Teethers</a></div>
+
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="clothing.html">Clothing</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('baby_shoes')"><a href="baby_shoes.html">Baby Shoes</a></div>
+                    <div onclick="showAlert('baby_suits')"> <a href="baby_suits.html">Baby suits</a></div>
+                    <div onclick="showAlert('receiving_set')"><a href="receiving_set.html">receiving set</a></div>
+                    <div onclick="showAlert('rompers')"> <a href="rompers.html">Rompers</a></div>
+                    <div onclick="showAlert('custom_design')"> <a href="custom_design.html">custom design</a></div>
+                    <div onclick="showAlert('dresses')"> <a href="dresses.html">Dresses</a></div>
+                    <div onclick="showAlert('kofia_set')"> <a href="kofia_set.html">kofia set</a></div>
+                    <div onclick="showAlert('baby_bibs')"> <a href="baby_bibs.html">baby bibs</a></div>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="carriers.html">carriers</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('baby_carriers')"><a href="baby_carrries.html">Baby carrier</a></div>
+                    <div onclick="showAlert('diaper_bags')"> <a href="diaper_bags.html">Diaper bags</a></div>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="feeding.html">Feeding</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('breast_pumps')"><a href="breast_pumps.html">breast pumps</a></div>
+                    <div onclick="showAlert('feeding_bottles')"> <a href="feeding_bottles.html">feeding bottles</a>
+                    </div>
+                    <div onclick="showAlert('feeding_chairs')"> <a href="feeding_chairs.html">feeding chairs</a></div>
+                    <div onclick="showAlert('pacifier')"> <a href="pacifier.html">Pacifier</a></div>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="mommy.html">Mommy</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('belts')"><a href="belts.html">belts</a></div>
+                    <div onclick="showAlert('nursing_bras')"> <a href="nursing_bras.html">nursing bras</a></div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="Nursery.html">Nursery</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('kids_furniture')"><a href="kids_furniture.html">kids furniture</a></div>
+                    <div onclick="showAlert('pillows')"> <a href="pillows.html">Pillows</a></div>
+                    <div onclick="showAlert('nests_&_bassinets')"> <a href="nests_&_bassinets.html">nests &
+                            bassinets</a></div>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="playtime.html">Playtime</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('playmats')"><a href="playmats.html">Playmats</a></div>
+                    <div onclick="showAlert('toys')"> <a href="toys.html">toys</a></div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="trave.html">Travel</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('child_safety_car_seat')"><a href="child_safety_car_seat.html">child
+                            safetycar seat</a></div>
+                    <div onclick="showAlert('swings_&_rockers')"> <a href="swings_&_rockers.html">Swings & rockers</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="warmth.html">warmth</a></button>
+                <div class="dropdown-content">
+                    <div onclick="showAlert('baby_blankets')"><a href="baby_blankets.html">Baby blanket</a></div>
+                    <div onclick="showAlert('baby_warmer')"> <a href="baby_warmer.html">Baby warmer</a></div>
+                    <div onclick="showAlert('baby_shawls')"> <a href="baby_shawls.html">Baby shawls</a></div>
+                </div>
+            </div>
+
+        </div>
     </nav>
     <!-- hero section -->
     <main>
-       <br>
+        <br>
         <section>
             <div>
                 <img src="home_image.png" alt="home_image" width="965px" height="400px" />
         </section>
-<section>
-    <a href="products.html" class="button"> Shop Now </a>
-</section>
+        <section>
+            <a href="products.html" class="button"> Shop Now </a>
+        </section>
         <!-- category section -->
         <section class="Categories">
             <h2>Categories</h2>
@@ -342,7 +346,7 @@
                     <img src="warmth_image.jpg" alt="warmth_image" width="200px" height="100px">
                     <p font-size="1em">baby blankets</p>
                     <p class="price">KSh 500.00</p>
-                    <a href="baby_blankets.html">select option</a>
+                    <a href="baby_blankets.html">view option</a>
                 </article>
                 <article class="product-card">
                     <img src="teethers_1.jpg" alt="teethers_1" width="200px" height="100px">
@@ -380,17 +384,18 @@
                 <li><a href="contact.html"> Contact us</a></li>
                 <li><a href="account.html">Account</a></li>
             </ul>
-         
+
         </div>
-         <!-- quick links -->
-      <div>
-        <h3>Get in touch</h3>
-        <a href="https://fontawesome.comfacebook"><i class="fa-brands fa-square-facebook"></i></a>
-      <a href="https://fontawesome.cominstagram"><i class="fa-brands fa-instagram"></i></a>
-      </div>
+        <!-- quick links -->
+        <div>
+            <h3>Get in touch</h3>
+            <a href="https://fontawesome.comfacebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://fontawesome.cominstagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
         <!-- copy right -->
         <div>
-            <p>&copy;Wema baby shop 2026|All rights reserved</p></div>
+            <p>&copy;Wema baby shop 2026|All rights reserved</p>
+        </div>
     </footer>
 
 
