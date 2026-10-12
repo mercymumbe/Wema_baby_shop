@@ -160,35 +160,6 @@ This page comprises of different baby warmer products and their prices.
 This page comprises of different baby shawl products and their prices.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Technologies Used
 
 HTML5
@@ -196,4 +167,33 @@ CSS3
 Git and GitHub for version control
 Visual Studio Code
 AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
