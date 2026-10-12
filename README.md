@@ -32,13 +32,18 @@ This section displays different products. Customers can also view more  product 
 
 This section gives information about Wema baby shop and explains our vision, our mission, what we offer, reasons for choosing us and our working team.
 
+
 4.Contact page
 
 This page provides the business phone number, email address and location in Nairobi, Kenya.
 
+
 5.Shopping Cart
 
 The website also has a shopping cart section where customers can view their selected products and total amount.
+
+6. Account page
+This page provides a section for our customer to sign in to our website.
 
 ## Technologies Used
 
