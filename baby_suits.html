@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wema Baby Shop|Trusted Baby Shop</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
     <style>
-        body {
+         body {
             margin: 10px;
             padding: 10px;
             font-family:
@@ -65,6 +66,15 @@
             list-style: none;
             display: block;
         }
+
+        a:hover {
+            color: chocolate;
+        }
+
+        section button {
+            border-radius: 30%;
+            background-color: burlywood;
+        }
          section ul {
             display: flex;
             direction: ltr;
@@ -74,17 +84,14 @@
 
         section ul li a {
             text-decoration: none;
-            color: grey;
+            color: grey;}
 
-        }
 
-        a:hover {
-            color: chocolate;
-        }
-        /* products section*/
+               
+/* products section*/
         .product-container{
             display: grid;
-            grid-template-columns:(1fr);
+            grid-template-columns:repeat(3, 1fr);
             justify-content: space-between;
             gap: 10px;
         }
@@ -92,17 +99,40 @@
             background-color: azure;
             padding: 10px;
         }
-         .product-info{
+        .product-info{
             color: black;
         }
         .add-cart{
             background-color: burlywood;
         }
         .empty-star{
-            color: burlywood;}
+            color: burlywood;
+        }
+        
+
+        /* footer*/
+        footer {
+            display: flex;
+            gap: 50px;
+            background-color: black;
+            color: white;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+    
+
+        }
+
+        footer div a {
+            text-decoration: none;
+            color: white;
+            list-style-type:none ;
+
+        }
     </style>
 </head>
-<body>
+<body> 
+ <!--header  -->
     <header>
         <h2>Shop Online</h2>
         <div>
@@ -111,7 +141,13 @@
                 <label for="search"></label>
                 <input type="search" name="search" id="search" placeholder="search for products..." />
             </form>
+             </form>
+            <div class="header-icon">
+                <a href="account.html"><i class="fa-regular fa-user"></i></a>
+                <a href="add_to_cart.html"><i class="fa-sharp fa-regular fa-cart-shopping"></i></a>
+            </div>
         </div>
+
     </header>
       <!-- navigation section -->
     <nav>
@@ -119,7 +155,7 @@
             <li>
                 <a href="baby_care.html">Baby Care</a>
                 <ul>
-                    <li><a href="baby-bath.html">Baby bath</a></li>
+                    <li><a href="baby_bath.html">Baby bath</a></li>
                     <li><a href="baby_potty.html">Baby potty</a></li>
                     <li><a href="towel_&_washcloth.html">Towel & washclothes</a></li>
                     <li><a href="teethers.html">Teethers</a></li>
@@ -306,5 +342,32 @@
             </div>
             </article>
         </div>
+    </section>
+     <br>
+    <!-- company information -->
+    <footer>
+        <!-- quick links -->
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li> <a href="products.html">Products</a></li>
+                <li><a href="contact.html"> Contact us</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+         
+        </div>
+         <!-- quick links -->
+      <div>
+        <h3>Get in touch</h3>
+        <a href="https://fontawesome.comfacebook"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://fontawesome.cominstagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+        <!-- copy right -->
+        <div>
+            <p>&copy;Wema baby shop 2026|All rights reserved</p></div>
+    </footer>
+ 
 </body>
 </html>
