@@ -14,7 +14,11 @@ h1 {
   text-align: center;
   color: chocolate;
 }
-
+h3{
+  color: chocolate;}
+  h2{
+    color: chocolate;
+}
 /* navigation*/
 nav {
   background-color: burlywood;
@@ -84,6 +88,11 @@ section a {
   text-decoration: none;
   color: black;
 }
+section ul{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
 
 /* category section */
 .Categories {
@@ -107,16 +116,17 @@ section a {
 .product-container {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5px;
 
 }
 
 .product-card {
-  background-color: whitesmoke;
-  padding: 10px;
-border-radius: 0.25rem;
-  box-shadow: 0 4px 8px rgb(235, 233, 175);
+  background-color: burlywood;
+  margin: 10px;
+  padding: 50px;
+border-radius: 2.15rem;
+  box-shadow: 0 4px 8px black;
 }
 
 .price {
@@ -132,8 +142,9 @@ article a {
             color: black;
         }
         .add-cart{
-            background-color: burlywood;
-            border: 2px solid;}
+            background-color: rgb(243, 227, 187);
+            border-radius: 2.5em;
+        }
 
 /* footer*/
 footer {
