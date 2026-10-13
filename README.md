@@ -196,8 +196,10 @@ Wait a few minutes for the website to be published.
 
 ## Screenshots
 
+![image of home page](images/Screenshot_home_page.png)
+![image of contact us page](images/Screenshot_contact_page.png)
 ![image of clothing page](images/products_Screenshot.png)
-![image of about](images/Screenshot_about_page.png)
+![image of about us](images/Screenshot_about_page.png)
 
 
 
