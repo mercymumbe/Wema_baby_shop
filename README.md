@@ -168,6 +168,8 @@ Git and GitHub for version control
 Visual Studio Code
 AI
 
+## Project Structure
+![image of project structure]()
 
 
 
