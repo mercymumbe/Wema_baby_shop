@@ -148,21 +148,21 @@ article a {
 /* dashboard */
 .dashboard-container{
   position: relative;
+  
 }
 .dashboard-card{
+  
 background-color: burlywood;
   margin: 10px;
-  padding: 50px;
+  padding: 20px;
 border-radius: 2.15rem;
   box-shadow: 0 4px 8px black;
 }
 .inner-card{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   background-color: rgb(231, 227, 223);
-  margin: 10px;
+  margin: 5px;
   padding:10;
-border:1px solid;
+border:1px solid
 }
 /* footer*/
 footer {
