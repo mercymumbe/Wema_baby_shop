@@ -202,6 +202,9 @@ Wait a few minutes for the website to be published.
 ![image of about us](images/Screenshot_about_page.png)
 
 
+## Author
+
+Mercy Mutua, Zindua School.
 
 
 
