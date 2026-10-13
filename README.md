@@ -169,7 +169,7 @@ Visual Studio Code
 AI
 
 ## Project Structure
-![image of project structure]()
+![image of project structure](images/project_structure_image.png)
 
 
 
