@@ -5,58 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wema Baby Shop|Trusted Baby Shop</title>
-    <style>
-        /* body */
-         body {
-            margin: 10px;
-            padding: 10px;
-            font-family:
-                "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-                Arial, sans-serif;
-            background-color: beige;
-            font-size: small;
-        }
-        /* navigation links */
-         nav ul {
-            display: flex;
-            direction: ltr;
-            list-style-type: none;
-            gap: 5px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: grey;
-
-        }
-
-        a:hover {
-            color: chocolate;
-        }
-        .login-container{
-            display: grid;
-            grid-template-columns:(1fr);
-            gap: 10px;
-        }
-        .login-card{
-            background-color: azure;
-        margin: 10px;
-        padding: 10px;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
 </head>
-
 <body>
-    <!-- navigation links -->
-      <section>
-        <nav>
+   <!--header  -->
+    <header>
+        <div>
+            <h1>Wema Baby Shop</h1>
+
+        </div>
+    </header>
+
+    <!-- navigation section -->
+
+    <nav>
+        <div class="menu">
+            <div class="menu-item">
+                <a href="baby_care.html">Baby Care</a>
+                <div class="dropdown">
+                    <a href="baby_bath.html">Baby bath</a>
+                    <a href="baby_potty.html">Baby potty</a>
+                    <a href="towel_&_washcloth.html">towel & wash cloth</a>
+                    <a href="teethers.html">Teethers</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="clothing.html">Clothing</a>
+                <div class="dropdown">
+                    <a href="baby_shoes.html">Baby Shoes</a>
+                    <a href="baby_suits.html">Baby suits</a>
+                    <a href="receiving_set.html">receiving set</a>
+                    <a href="rompers.html">Rompers</a>
+                    <a href="custom_design.html">custom design</a>
+                    <a href="dresses.html">Dresses</a>
+                    <a href="kofia_set.html">kofia set</a>
+                    <a href="baby_bibs.html">baby bibs</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="carriers.html">carriers</a>
+                <div class="dropdown">
+                    <a href="baby_carrries.html">Baby carrier</a>
+                    <a href="diaper_bags.html">Diaper bags</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="feeding.html">Feeding</a>
+                <div class="dropdown">
+                    <a href="breast_pumps.html">breast pumps</a>
+                    <a href="feeding_bottles.html">feeding bottles</a>
+                    <a href="feeding_chairs.html">feeding chairs</a>
+                    <a href="pacifier.html">Pacifier</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="mommy.html">Mommy</a>
+                <div class="dropdown">
+                    <a href="belts.html">belts</a>
+                    <a href="nursing_bras.html">nursing bras</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="Nursery.html">Nursery</a>
+                <div class="dropdown">
+                    <a href="kids_furniture.html">kids furniture</a>
+                    <a href="pillows.html">Pillows</a>
+                    <a href="nests_&_bassinets.html">nests &
+                        bassinets</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="playtime.html">Playtime</a>
+                <div class="dropdown">
+                    <a href="playmats.html">Playmats</a>
+                    <a href="toys.html">toys</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="trave.html">Travel</a>
+                <div class="dropdown">
+                    <a href="child_safety_car_seat.html">child safety car seat</a>
+                    <a href="swings_&_rockers.html">Swings & rockers</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="warmth.html">warmth</a>
+                <div class="dropdown">
+                    <a href="baby_blankets.html">Baby blanket</a>
+                    <a href="baby_warmer.html">Baby warmer</a>
+                    <a href="baby_shawls.html">Baby shawls</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <!-- quick links -->
         <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="account.html">Account</a></li>
-        </ul>
-        </nav>
+    </section>
     </section>
     <section>
         <div class="login-container">
@@ -66,7 +124,7 @@
                 <div>
                     <h2>Login to your account</h2>
                     <br>
-                        <label for="email"><strong>Email:</strong></label>
+                            <label for="email"><strong>Email:</strong></label>
                         <input type="email" name="email" id="email">
                         <br></br>
                         <!-- password must be between 8-10 -->
@@ -75,15 +133,40 @@
                         <p>Remember me</p>
                         <p>forgot passward</p>
                         <button>login</button>
-                    </form>
+                        <p>You don't have an account?</p>
+                        <br>
+                   <button>sign in</button>
                 </div>
-                <!-- registration details -->
-                 <div><p>Dont have an account?</p></div>
-                 
-                </article>
-       
+                 </article>
             </div>
-            
+    </section>
+    <br>
+    <!-- company information -->
+    <footer>
+        <!-- quick links -->
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li> <a href="products.html">Products</a></li>
+                <li><a href="contact.html"> Contact us</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+
+        </div>
+        <!-- quick links -->
+        <div>
+            <h3>Get in touch</h3>
+            <a href="https://fontawesome.comfacebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://fontawesome.cominstagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <!-- copy right -->
+        <div>
+            <p>&copy;Wema baby shop 2026|All rights reserved</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
