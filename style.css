@@ -145,7 +145,25 @@ article a {
             background-color: rgb(243, 227, 187);
             border-radius: 2.5em;
         }
-
+/* dashboard */
+.dashboard-container{
+  position: relative;
+}
+.dashboard-card{
+background-color: burlywood;
+  margin: 10px;
+  padding: 50px;
+border-radius: 2.15rem;
+  box-shadow: 0 4px 8px black;
+}
+.inner-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(231, 227, 223);
+  margin: 10px;
+  padding:10;
+border:1px solid;
+}
 /* footer*/
 footer {
   display: grid;
