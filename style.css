@@ -111,6 +111,15 @@ section ul{
   border-radius: 50%;
   object-fit: cover;
 }
+/* account features */
+.login-container{
+  justify-content:;
+}
+.login-card{
+  background-color: burlywood;
+  margin: 10px;
+  padding: 10px;
+}
 
 /* featured products */
 .product-container {
