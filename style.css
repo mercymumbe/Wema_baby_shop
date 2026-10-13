@@ -121,7 +121,7 @@
 
   /* account features */
   .login-container {
-    justify-content: ;
+    justify-content: space-between;
   }
 
   .login-card {
