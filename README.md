@@ -194,7 +194,10 @@ Under Branch, choose main and the / (root) folder.
 Click Save.
 Wait a few minutes for the website to be published.
 
+## Screenshots
 
+![image of clothing page](images/products_Screenshot.png)
+![image of about](images/Screenshot_about_page.png)
 
 
 
