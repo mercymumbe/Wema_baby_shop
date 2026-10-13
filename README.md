@@ -6,7 +6,7 @@ This is a website for Wema baby shop located in Nairobi, Kenya.
 
 
 
-**live link**:
+**live link**: https://mercymumbe.github.io/Wema_baby_shop/
 
 ## Project Description
 
