@@ -1,200 +1,219 @@
 /*body*/
-body {
-  margin: 10px;
-  padding: 10px;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  background-color: rgb(243, 227, 187);
-  font-size: small;
-}
+@media all {
 
-/* header */
-h1 {
-  text-align: center;
-  color: chocolate;
-}
-h3{
-  color: chocolate;}
-  h2{
+  body {
+    margin: 10px;
+    padding: 10px;
+    font-family:
+      "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+      Arial, sans-serif;
+    background-color: rgb(243, 227, 187);
+    font-size: small;
+  }
+
+  /* header */
+  h1 {
+    text-align: center;
     color: chocolate;
-}
-/* navigation*/
-nav {
-  background-color: burlywood;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  flex-wrap: wrap;
-}
+  }
 
-.menu {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
+  h3 {
+    color: chocolate;
+  }
 
-.menu a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  padding: 0.5rem;
-  display: inline-block;
-}
+  h2 {
+    color: chocolate;
+  }
 
-.menu a:hover {
-  color: white;
-}
+  /* navigation*/
+  nav {
+    background-color: burlywood;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
 
-.menu-item {
-  position: relative;
-}
+  .menu {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
 
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: burlywood;
-  min-width: 160px;
-  border-radius: 0.25rem;
-  box-shadow: 0 4px 8px rgb(235, 233, 175);
-  z-index: 10;
-}
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 0.5rem;
+    display: inline-block;
+  }
 
-.dropdown a {
-  display: block;
-  padding: 0.75rem 1rem;
-  color: black;
-  white-space: nowrap;
-}
+  .menu a:hover {
+    color: white;
+  }
 
-.menu-item:hover .dropdown {
-  display: block;
-}
+  .menu-item {
+    position: relative;
+  }
 
-a:hover {
-  color: chocolate;
-}
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: burlywood;
+    min-width: 160px;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgb(235, 233, 175);
+    z-index: 10;
+  }
 
-section button {
-  border-radius: 30%;
-  background-color: burlywood;
-}
+  .dropdown a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: black;
+    white-space: nowrap;
+  }
 
-section a {
-  text-decoration: none;
-  color: black;
-}
-section ul{
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-}
+  .menu-item:hover .dropdown {
+    display: block;
+  }
 
-/* category section */
-.Categories {
-  text-align: center;
-}
+  a:hover {
+    color: chocolate;
+  }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  justify-content: space-between;
-  gap: 20px;
-  width: 30px;
-}
+  section button {
+    border-radius: 30%;
+    background-color: burlywood;
+  }
 
-.grid-item img {
-  border-radius: 50%;
-  object-fit: cover;
-}
-/* account features */
-.login-container{
-  justify-content:;
-}
-.login-card{
-  background-color: burlywood;
-  margin: 10px;
-  padding: 10px;
-}
-.login{
-  background-color: chocolate;
-  border-radius: 0.25em;
-}
-.sign-in{
-  background-color: chocolate;
-  border-radius: 0.25em;
-}
-/* featured products */
-.product-container {
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  section a {
+    text-decoration: none;
+    color: black;
+  }
 
-}
+  section ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
 
-.product-card {
-  background-color: burlywood;
-  margin: 10px;
-  padding: 50px;
-border-radius: 2.15rem;
-  box-shadow: 0 4px 8px black;
-}
+  /* category section */
+  .Categories {
+    text-align: center;
+  }
 
-.price {
-  color: brown;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+    width: 30px;
+  }
 
-article a {
-  text-decoration: none;
-  color: blue;
-  border: 1px;
-}
-.product-info{
-            color: black;
-        }
-        .add-cart{
-            background-color: rgb(243, 227, 187);
-            border-radius: 2.5em;
-        }
-/* dashboard */
-.dashboard-container{
-  position: relative;
-  
-}
-.dashboard-card{
-  
-background-color: burlywood;
-  margin: 10px;
-  padding: 20px;
-border-radius: 2.15rem;
-  box-shadow: 0 4px 8px black;
-}
-.inner-card{
-  background-color: rgb(231, 227, 223);
-  margin: 5px;
-  padding:10;
-border:1px solid
-}
-/* footer*/
-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: black;
-  color: white;
-  width: 100%;
-  position: relative;
-  bottom: 0;
+  .grid-item img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* account features */
+  .login-container {
+    justify-content: ;
+  }
+
+  .login-card {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .login {
+    background-color: chocolate;
+    border-radius: 0.25em;
+  }
+
+  .sign-in {
+    background-color: chocolate;
+    border-radius: 0.25em;
+  }
+
+  /* featured products */
+  .product-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+  }
+
+  .product-card {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 2.15rem;
+    box-shadow: 0 4px 8px black;
+  }
+
+  .price {
+    color: brown;
+  }
+
+  article a {
+    text-decoration: none;
+    color: blue;
+    border: 1px;
+  }
+
+  .product-info {
+    color: black;
+  }
+
+  .add-cart {
+    background-color: rgb(243, 227, 187);
+    border-radius: 2.5em;
+  }
+
+  /* dashboard */
+  .dashboard-container {
+    position: relative;
+
+  }
+
+  .dashboard-card {
+
+    background-color: burlywood;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 2.15rem;
+    box-shadow: 0 4px 8px black;
+  }
+
+  .inner-card {
+    background-color: rgb(231, 227, 223);
+    margin: 5px;
+    padding: 10;
+    border: 1px solid
+  }
+
+  /* footer*/
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 
 
-}
+  }
 
-footer div a {
-  text-decoration: none;
-  color: white;
-  list-style-type: none;
+  footer div a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+  }
 }
