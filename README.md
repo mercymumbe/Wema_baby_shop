@@ -171,6 +171,28 @@ AI
 ## Project Structure
 ![image of project structure](images/project_structure_image.png)
 
+## Setup Instructions
+
+### Run it on your computer
+Clone the repository.
+
+https://github.com/mercymumbe/Wema_baby_shop.git
+
+Go into the project folder.
+
+Search for  Wema Baby shop
+
+Open index.html in your browser (Chrome, Firefox or Safari).
+
+You can also right-click index.html in VS Code and choose Open with Live Server.
+
+## Deploy to GitHub Pages
+
+Push the project to a GitHub repository.
+In the repository, go to Settings → Pages.
+Under Branch, choose main and the / (root) folder.
+Click Save.
+Wait a few minutes for the website to be published.
 
 
 
