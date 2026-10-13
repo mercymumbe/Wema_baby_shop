@@ -160,6 +160,10 @@ This page comprises of different baby warmer products and their prices.
 44. Baby shawls page
 This page comprises of different baby shawl products and their prices.
 
+45. dashboard page
+This is a staff dashboard.
+This page provides details of orders, pending orders, delivered and in progress
+
 
 ## Technologies Used
 
