@@ -111,7 +111,6 @@
     grid-template-columns: repeat(8, 1fr);
     justify-content: space-between;
     gap: 20px;
-    width: 30px;
   }
 
   .grid-item img {
@@ -141,13 +140,16 @@
   }
 
   /* featured products */
-  .product-container {
+ @media (max-width:480px) {
+.product-container {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 
-  }
+ }
+ }
+  
 
   .product-card {
     background-color: burlywood;
