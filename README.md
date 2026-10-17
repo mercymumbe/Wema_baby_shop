@@ -14,9 +14,19 @@ Wema baby shop is a simple e-commerce website that allows customers to view diff
 
 The website includes products such as baby cares, carriers, clothing, kids furniture, mommy nursing requirements, playtoys play mats and any other relevant product. 
 
+## Problem Statement
+
+Parents and caregivers often struggle to find reliable baby products, compare prices, check suitable sizes and ages, and know whether essential items are available before visiting a physical shop. Shopping for baby products can also be time-consuming, especially for busy parents who need convenient access to essential items.
+
 ## Business Role
 
 The main goal of this website is to create an online presence for Wema baby shop where customers can view our products and choose the  products they need.
+
+## Target Audience
+
+The target audience includes parents, expectant mothers, caregivers, guardians, and anyone looking to buy baby products in Kenya.
+
+The website helps them save time by allowing them to explore different product categories, compare prices, and find essential baby items in one place.
 
 ## Features
 
@@ -164,6 +174,53 @@ This page comprises of different baby shawl products and their prices.
 This is a staff dashboard.
 This page provides details of orders, pending orders, delivered and in progress
 
+## Style Guide
+
+Wema Baby Shop website uses a simple, clean, and user-friendly design to make online shopping easy for customers.
+
+Colours: Soft and attractive colours that create a warm, welcoming, and baby-friendly appearance.
+
+Typography: Clear and readable fonts to make product names, prices, and other information easy to understand.
+
+Images: Clear product images that help customers identify the items they want to buy.
+
+Layout: Products are arranged in categories and product cards to make browsing easier.
+
+Buttons: Clearly visible buttons such as Shop Now and Add to Cart help customers navigate and interact with the website.
+
+Navigation: Simple navigation links help users move between the Home, Products, About Us, Contact, and Account pages.
+
+## Responsive Design: How the Site Adapts to Screen Sizes
+
+The website is designed to provide a user-friendly experience across different screen sizes, including desktops, laptops, tablets, and mobile phones.
+
+Desktop: Products are displayed in multiple columns, allowing customers to view several items at once.
+
+Tablet: The layout adjusts to fit the smaller screen, with product cards arranged in fewer columns.
+
+Mobile phone: The layout can use fewer columns, smaller images, and appropriately sized buttons to make browsing easier on smaller screens.
+
+Navigation: Navigation elements should adjust to fit smaller screens and remain easy to use.
+
+Images and content: Images and page content should resize to fit the available screen width and reduce unnecessary horizontal scrolling.
+
+CSS media queries, flexible layouts, and responsive image sizing can be used to achieve these adjustments.
+
+## Challenges
+
+During the development of the Wema Baby Shop website, i experienced the following challenges;
+
+Organising products: Arranging many baby products into suitable categories and individual pages required careful planning.
+
+Page navigation: Creating links between the main pages, product categories, and individual product pages required attention to ensure users could navigate easily.
+
+Product presentation: Displaying product images, names, and prices clearly while maintaining a consistent layout was important.
+
+Responsive design: Making the website easy to use on different screen sizes required careful CSS styling and layout adjustments.
+
+Time management: Developing multiple pages while maintaining a consistent design required time and planning.
+
+Website functionality: Ensuring that buttons, forms, and navigation links work as expected was an important part of testing the website.
 
 ## Technologies Used
 
